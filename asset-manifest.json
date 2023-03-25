@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/accesories-store/static/css/main.edffa9bb.css",
+    "main.js": "/accesories-store/static/js/main.66a4b4c1.js",
+    "static/js/787.0acd5f5e.chunk.js": "/accesories-store/static/js/787.0acd5f5e.chunk.js",
+    "static/media/picture8.jpg": "/accesories-store/static/media/picture8.1eb36f97eff5c249ebc7.jpg",
+    "static/media/picture1.jpg": "/accesories-store/static/media/picture1.0ffd3f36fab6fbdca75e.jpg",
+    "static/media/picture6.jpg": "/accesories-store/static/media/picture6.e7ba4b61f377f0383193.jpg",
+    "static/media/picture7.jpg": "/accesories-store/static/media/picture7.4468b7084c117c74039c.jpg",
+    "static/media/picture3.jpg": "/accesories-store/static/media/picture3.cd9f08443d91a35f874c.jpg",
+    "static/media/picture9.jpg": "/accesories-store/static/media/picture9.4424b0a3f6373dbce4a4.jpg",
+    "static/media/picture5.jpg": "/accesories-store/static/media/picture5.c5b9b5a31ae14f5cbde5.jpg",
+    "static/media/picture4.jpg": "/accesories-store/static/media/picture4.7955cf82b8d924696384.jpg",
+    "static/media/Rouge.ttf": "/accesories-store/static/media/Rouge.8eeac8e7a770a22c574d.ttf",
+    "static/media/picture10.jpg": "/accesories-store/static/media/picture10.322e8d6859d212c1cca7.jpg",
+    "static/media/picture2.jpg": "/accesories-store/static/media/picture2.f2e9070023a5931d4f16.jpg",
+    "static/media/Nabi.woff": "/accesories-store/static/media/Nabi.d7209fdf1cd5c30bfc81.woff",
+    "index.html": "/accesories-store/index.html",
+    "main.edffa9bb.css.map": "/accesories-store/static/css/main.edffa9bb.css.map",
+    "main.66a4b4c1.js.map": "/accesories-store/static/js/main.66a4b4c1.js.map",
+    "787.0acd5f5e.chunk.js.map": "/accesories-store/static/js/787.0acd5f5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edffa9bb.css",
+    "static/js/main.66a4b4c1.js"
+  ]
+}
