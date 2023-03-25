@@ -30,12 +30,23 @@ img10,
 
 function App() {
 
+  //methods
+
   return (
     <div className="App">
       <Navigation />
+      <div className="cart"> 
+        <h1>Cart</h1>
+        <div>Item1</div>
+        <div>Item2</div>
+        <div>Item3</div>
+        <div>Item4</div>
+      </div>
       <Landing />
       <ProductDisplay images={images}/>
-      <div className="up" onClick={() => window.scrollTo(0,0)}> up </div>
+      <div className="up">
+        <div onClick={() => window.scrollTo(0,0)}>up</div>
+      </div>
     </div>
   );
 }
