@@ -37,10 +37,15 @@ function App() {
       <Navigation />
       <div className="cart"> 
         <h1>Cart</h1>
-        <div>Item1</div>
-        <div>Item2</div>
-        <div>Item3</div>
-        <div>Item4</div>
+        <h2>Item1</h2>
+        <h2>Item2</h2>
+        <h2>Item3</h2>
+        <h2>Item4</h2>
+        <h2>Item4</h2>
+        <h2>Item4</h2>
+        <h2>Item4</h2>
+        <h2>Item4</h2>
+        <h2>Item4</h2>
       </div>
       <Landing />
       <ProductDisplay images={images}/>

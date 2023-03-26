@@ -51,17 +51,16 @@ h3 {
 }
 
 .cart {
-  text-align: center;
   position: fixed;
-  right: 50px;
-  top: 50px;
-  width:20vw;
-  height: 60vh;
+  text-align: center;
+  top:5%;
+  width:90%;
+  height: 90%;
   background-color: pink;
-  border-radius: 20px;
-  padding: 20px;
   z-index: 1;
   display: none;
+  border: 10px solid white;
+  border-radius: 20px;
 }
 
 .cart.active {
@@ -100,7 +99,7 @@ h3 {
   justify-content: space-between;
   padding: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  transition-duration: 0.2s;
+  transition-duration: 0.5s;
 }
 
 .logo {
@@ -116,8 +115,11 @@ h3 {
 }
 
 .menu li {
+  text-transform: uppercase;
+  font-family: Nabi;
+  letter-spacing: 0.2rem;
   margin-right: 20px;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: bold;
   cursor: pointer;
   color: #333;
@@ -172,18 +174,18 @@ h3 {
 }
 
 .product_display_container {
-  display: grid;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90vw;
+  width: 90%;
   margin: 12vh auto;
   background-color: white;
 }
 
 .picture_card {
   margin: 20px 0;
-  width: 500px;
+  width: 80%;
   height: 500px;
   font-size: calc(var(--index) * 2);
   border: 1px solid pink;
