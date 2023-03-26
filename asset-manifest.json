@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/accesories-store/static/css/main.edffa9bb.css",
-    "main.js": "/accesories-store/static/js/main.66a4b4c1.js",
+    "main.css": "/accesories-store/static/css/main.af5c6370.css",
+    "main.js": "/accesories-store/static/js/main.cf941d36.js",
     "static/js/787.0acd5f5e.chunk.js": "/accesories-store/static/js/787.0acd5f5e.chunk.js",
     "static/media/picture8.jpg": "/accesories-store/static/media/picture8.1eb36f97eff5c249ebc7.jpg",
     "static/media/picture1.jpg": "/accesories-store/static/media/picture1.0ffd3f36fab6fbdca75e.jpg",
@@ -16,12 +16,12 @@
     "static/media/picture2.jpg": "/accesories-store/static/media/picture2.f2e9070023a5931d4f16.jpg",
     "static/media/Nabi.woff": "/accesories-store/static/media/Nabi.d7209fdf1cd5c30bfc81.woff",
     "index.html": "/accesories-store/index.html",
-    "main.edffa9bb.css.map": "/accesories-store/static/css/main.edffa9bb.css.map",
-    "main.66a4b4c1.js.map": "/accesories-store/static/js/main.66a4b4c1.js.map",
+    "main.af5c6370.css.map": "/accesories-store/static/css/main.af5c6370.css.map",
+    "main.cf941d36.js.map": "/accesories-store/static/js/main.cf941d36.js.map",
     "787.0acd5f5e.chunk.js.map": "/accesories-store/static/js/787.0acd5f5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edffa9bb.css",
-    "static/js/main.66a4b4c1.js"
+    "static/css/main.af5c6370.css",
+    "static/js/main.cf941d36.js"
   ]
 }
