@@ -149,10 +149,10 @@ h3 {
 
 .landing_logo {
   transform: translate3d(0, calc(var(--scrollTop)/6), 0);
-  width: 100%;
+  max-width: 100%;
   text-transform: uppercase;
   font-family: Nabi;
-  font-size: calc(var(--index) * 5);
+  font-size: calc(var(--index) * 3);
   letter-spacing: calc(var(--index) * 2);
 }
 
