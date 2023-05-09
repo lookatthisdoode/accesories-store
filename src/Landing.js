@@ -6,7 +6,8 @@ const Landing = () => {
 		<div className="landing">
 			<ul className="menu landing_nav ">
         <li>About</li>
-        <li onClick={() => window.scrollTo(0,1100)}>Shop</li>
+        <li onClick={() => window.scrollTo({top: (window.screen.height), behavior: 'smooth'})}>Bracelettes</li>
+        <li onClick={() => window.scrollTo({top: 3196, behavior: 'smooth'})}>Necklaces</li>
     	</ul>
 			<div className="landing_logo">
 				Vitalina

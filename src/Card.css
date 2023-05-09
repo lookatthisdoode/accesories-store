@@ -1,0 +1,109 @@
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+.card {
+  width:90%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+  margin: 30px 0;
+  box-shadow: 1px 0px 10px 1px #ccc;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: Nabi;
+}
+
+.card-image {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 15px;
+}
+
+.card-image img {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  scale: 1.4;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-type-likes{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.card-type {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.card-likes {
+  font-size: 1rem;
+  color: #666;
+  color: darkred;
+}
+
+.card-bio{
+  display: none;
+}
+.card-price-add-to-cart{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.card-price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 5px 0;
+}
+
+.add-to-cart{
+  border: none;
+  color: whitesmoke;
+  text-align: right;
+  width: auto;
+  padding: 0 20px;
+  background-color: #8ed595;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px 1px  #d3d3d3;
+}
+
+.add-to-cart:hover {
+  background-color: #b7eebc;
+}
+
+.add-to-cart:active {
+  background-color: #b7eebc;
+}
+
+.card-quantity {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+

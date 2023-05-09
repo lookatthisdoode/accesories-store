@@ -50,23 +50,6 @@ h3 {
   align-items: center;
 }
 
-.cart {
-  position: fixed;
-  text-align: center;
-  top:5%;
-  width:90%;
-  height: 90%;
-  background-color: pink;
-  z-index: 1;
-  display: none;
-  border: 10px solid white;
-  border-radius: 20px;
-}
-
-.cart.active {
-  display: block;
-  transition-duration: 0.5s;
-}
 
 .up{
   background-color: pink;
@@ -103,8 +86,7 @@ h3 {
 }
 
 .logo {
-  font-size: 46px;
-  font-weight: bold;
+  font-size: 2em;
 }
 
 .menu {
@@ -119,7 +101,7 @@ h3 {
   font-family: Nabi;
   letter-spacing: 0.2rem;
   margin-right: 20px;
-  font-size: 13px;
+  font-size: 0.7em;
   font-weight: bold;
   cursor: pointer;
   color: #333;
@@ -131,39 +113,52 @@ h3 {
 
 .landing {
   margin: 45vh 0;
-  width: 60vw;
+  width: 70vw;
   display: flex;
   flex-flow: column;
-  gap: calc(var(--index) / 0.4);
+  gap: 20px;
 }
 
 .landing_nav {
-  transform: translate3d(0, calc(var(--scrollTop)/8), 0);
+  transform: translate3d(0, calc(var(--scrollTop)*-0.5), 0);
   color: #808080;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   width: 100%;
   text-transform: uppercase;
   font-family: Nabi;
-  font-size: calc(var(--index) * 3);
+  font-size: 1.3em;
 }
 
 .landing_logo {
-  transform: translate3d(0, calc(var(--scrollTop)/6), 0);
-  max-width: 100%;
+  transform: translate3d(0, calc(var(--scrollTop)*-0.6), 0);
   text-transform: uppercase;
   font-family: Nabi;
-  font-size: calc(var(--index) * 3);
+  font-size: 4em;
+  overflow: hidden;
   letter-spacing: calc(var(--index) * 2);
 }
 
 .landing_paragraph {
   margin: 0;
-  transform: translate3d(0, calc(var(--scrollTop)/4), 0);
+  transform: translate3d(0, calc(var(--scrollTop)*-0.35), 0);
   font-family: Rouge, serif;
   font-size: calc(var(--index) * 3);
   font-weight: 400;
 }
 
+.category {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 5em;
+  font-family: Nabi ;
+  overflow: hidden;
+  padding-top: 80px;
+  height:200px;
+}
 
 
 .product_display {
@@ -192,6 +187,9 @@ h3 {
 /*  border-bottom: 10px solid gold ;*/
 }
 
+.greenbg {
+  background-color: green;
+}
 .picture_card > * {
   margin: 10px;
 }

@@ -15,20 +15,12 @@ const Navigation = (pos) => {
 
   window.addEventListener('scroll', updateState);
 
-
-  let cart = document.querySelector('.cart')
-  const switchCart = () => {
-    cart.classList.contains('active') ? cart.classList.remove('active') : cart.classList.add('active')
-  }
-
 //cart.classList.add('active')
   return (
     <div className="navigation" style={{top: posScroll}}>
       <div className="logo">Vitalina</div>
       <ul className="menu">
-        <li>About</li>
-        <li>Shop</li>
-        <li onClick={switchCart}>Cart</li>
+        <li>Cart</li>
       </ul>
     </div>
   );
