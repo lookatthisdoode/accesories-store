@@ -3,12 +3,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 
 .card {
-  width:90%;
+  width:80vw;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -26,7 +25,7 @@
 
 .card-image {
   width: 100%;
-  height: 300px;
+  height: 30vh;
   position: relative;
   overflow: hidden;
   margin: 10px 0;
@@ -41,6 +40,24 @@
   transform: translate(-50%, -50%);
   min-width: 100%;
   min-height: 100%;
+}
+
+.black-white-filter {
+  filter: grayscale(100%);
+}
+
+.out-of-stock-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 15px;
 }
 
 .card-info {
@@ -68,7 +85,11 @@
 }
 
 .card-bio{
-  display: none;
+
+}
+
+.read-more {
+  color: pink;
 }
 .card-price-add-to-cart{
   display: flex;
@@ -97,8 +118,8 @@
   background-color: #b7eebc;
 }
 
-.add-to-cart:active {
-  background-color: #b7eebc;
+.add-to-cart.inactive {
+  background-color: gray;
 }
 
 .card-quantity {

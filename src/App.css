@@ -89,64 +89,53 @@ h3 {
   font-size: 2em;
 }
 
-.menu {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-  text-transform: uppercase;
-  font-family: Nabi;
-  letter-spacing: 0.2rem;
-  margin-right: 20px;
-  font-size: 0.7em;
-  font-weight: bold;
-  cursor: pointer;
-  color: #333;
-}
-
-.menu li:hover {
-  color: pink;
-}
-
 .landing {
-  margin: 45vh 0;
+  margin: 40vh 0;
   width: 70vw;
   display: flex;
   flex-flow: column;
-  gap: 20px;
 }
 
-.landing_nav {
-  transform: translate3d(0, calc(var(--scrollTop)*-0.5), 0);
-  color: #808080;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  width: 100%;
-  text-transform: uppercase;
-  font-family: Nabi;
-  font-size: 1.3em;
-}
 
 .landing_logo {
   transform: translate3d(0, calc(var(--scrollTop)*-0.6), 0);
   text-transform: uppercase;
   font-family: Nabi;
-  font-size: 4em;
+  font-size: 5em;
   overflow: hidden;
   letter-spacing: calc(var(--index) * 2);
 }
+
 
 .landing_paragraph {
   margin: 0;
   transform: translate3d(0, calc(var(--scrollTop)*-0.35), 0);
   font-family: Rouge, serif;
-  font-size: calc(var(--index) * 3);
+  font-size: 2em;
+/*  font-size: calc(var(--index) * 1);*/
   font-weight: 400;
+}
+
+.landing_nav {
+  transform: translate3d(0, calc(var(--scrollTop)*-0.5), 0);
+  color: #333;
+  list-style: none;
+  align-items: center;
+  color: ;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  margin: 100px 0; padding: 0;
+  text-transform: uppercase;
+  font-family: Nabi;
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.landing_nav li:hover {
+  color: pink;
 }
 
 .category {
