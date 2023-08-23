@@ -6,6 +6,7 @@ import Card from './Card'
 import Cart from './Cart'
 import Upbutton from './containers/Upbutton/Upbutton';
 import 'tachyons'
+import { log } from 'async'
 
 const serverUrl = 'http://localhost:5000'
 const serverUrl1 = 'http://192.168.0.100:5000'
@@ -26,10 +27,11 @@ class App extends React.Component {
   }
 
   addToCart = (item, price) => {
-    this.setState((prevState) => ({
-      cart: [...prevState.cart, item],
-      total: prevState.total + price
-    }));
+    let newState = {
+      cart: [...this.state.cart, item],
+      total: this.state.total + price
+    }
+    this.setState(newState);
   };
 
   //soooo basically this will check if cart is not empty and send request to server to store it or send email or whatnot

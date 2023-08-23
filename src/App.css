@@ -3,13 +3,13 @@
 }
 @keyframes change-color {
   0% {
-    background-color: #ffcde685;
+    background-color: #fd89c385;
   }
   50%  {
-    background-color: #cdecff85
+    background-color: #92d2faa3
   }
   100% {
-    background-color: #ffcde685;
+    background-color: #fd89c385;
   }
 }
 
@@ -121,7 +121,7 @@ h3 {
   color: #333;
   list-style: none;
   align-items: center;
-  color: ;
+  color: #333;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -195,7 +195,4 @@ h3 {
   scale: 1.1;
   transition-duration: 0.2s;
   cursor: pointer;
-}
-.warning {
-/*  transform: translate3d(0, calc(var(--scrollTop)/-6), 0);*/
 }
